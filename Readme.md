@@ -28,7 +28,7 @@ python3 footprint_checker.py
 | Method | What it does |
 |--------|-------------|
 | **Holehe** | Probes 120+ websites (Google, Twitter, Instagram, GitHub, PayPal…) via their "Forgot Password" endpoints — no login or scraping needed |
-| **Have I Been Pwned** | Checks if your email appeared in known data breaches or paste dumps (free API key needed) |
+| **Leak Check** | Checks if your email appeared in known data breaches or paste dumps (free API key needed) |
 | **Search links** | Generates ready-to-open URLs for Dehashed, Epieos, Pastebin, etc. |
 
 ### Phone numbers
@@ -44,11 +44,11 @@ python3 footprint_checker.py
 ```env
 EMAILS=you@gmail.com,you@outlook.com,work@company.com
 PHONES=+911234567890,+919876543210
-HIBP_API_KEY=your_key_here
+LEAKCHECK_API_KEY=your_key_here
 ```
 
-- Phone numbers **must include country code** (e.g., `+91` for India)
-- HIBP API key is **optional but recommended** — get a free one at https://haveibeenpwned.com/API/Key
+- Phone numbers **must include country code**
+- LEAKCHECK_API_KEY is **optional but recommended**
 - Multiple values separated by commas
 
 ---
